@@ -34,7 +34,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, passswordGenerrator]);
 
   return (
-    <div className="w-full max-w-md mx-auto shadow-md rounder=lg px-4 my-8 text-orange-500 bg-gray-700 " style={{marginTop:"220px"}}>
+    <div className="w-full max-w-md mx-auto shadow-md rounder=lg px-4 my-8 text-orange-500 bg-gray-900 " style={{marginTop:"220px",padding:'30px',borderRadius:'24px'}}>
       <h1 className="text-white text-center my-3" style={{backgroundColor:"white" , color:"red", fontSize:"25px", borderRadius:"30px", marginBottom:"50px"}}>passsword Generator </h1>
       <input
         type="text"
